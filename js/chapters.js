@@ -15,19 +15,19 @@ const chapters = [
         file: "chapter-3_mvc-architecture.md"
     },
     {
+        id: 4,
+        title: "Routing",
+        file: "chapter-4_routing.md"
+    },
+    {
         id: 5,
-        title: "Components",
-        file: "chapter-5_components.md"
+        title: "Controllers",
+        file: "chapter-5_controllers.md"
     },
     {
         id: 6,
-        title: "Props",
-        file: "chapter-6_props.md"
-    },
-    {
-        id: 7,
-        title: "Events",
-        file: "chapter-7_events.md"
+        title: "View",
+        file: "chapter-6_view.md"
     },
     {
         id: 8,
