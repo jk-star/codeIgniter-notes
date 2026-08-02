@@ -60,6 +60,7 @@ class Student extends BaseController
 
 ## 2. GET Route ⭐
 - GET ka use normally data/page retrieve ya display karne ke liye hota hai.
+
 `$routes->get('/products', 'Product::index');`
 
 **Example URLs:**
@@ -431,18 +432,23 @@ ya:
 ## 🧠 Interview Questions
 
 **Q1. Routing kya hai?**
+
 - URL/request ko Controller ke appropriate method se map karna.
 
 **Q2. Routes file kahan hai?**
+
 `app/Config/Routes.php`
 
 **Q3. GET route ka syntax?**
+
 `$routes->get('/users', 'User::index');`
 
 **Q4. POST route?**
+
 `$routes->post('/users', 'User::store');`
 
 **Q5. Numeric dynamic parameter?**
+
 `$routes->get('/user/(:num)', 'User::show/$1');`
 
 **Q6. `$1` kya hai?**
@@ -453,7 +459,7 @@ ya:
 /user/15
        ↓
       $1
-</pre><code>
+</pre></code>
 
 **Q7. Route Group kyun?**
 

@@ -173,7 +173,7 @@ Browser
 public function index()
 {
     $data = [
-        'name' => 'Rahul',
+        'name' => 'jonh',
         'course' => 'MCA'
     ];
 
@@ -187,9 +187,9 @@ public function index()
 <code><pre>
 &lt;h1&gt;Student Details&lt;/h1&gt;
 
-&lt;p&gt;Name: <?= esc($name) ?>&lt;/p&gt;
+&lt;p&gt;Name: &lt;?= esc($name) ?&gt;&lt;/p&gt;
 
-&lt;p&gt;Course: <?= esc($course) ?>&lt;/p&gt;
+&lt;p&gt;Course: &lt;?= esc($course) ?&gt;&lt;/p&gt;
 </pre></code>
 
 ## `esc()` kya hai?
@@ -207,7 +207,7 @@ public function index()
 {
     $data['students'] = [
         ['name' => 'Amit', 'course' => 'BCA'],
-        ['name' => 'Rahul', 'course' => 'MCA'],
+        ['name' => 'jonh', 'course' => 'MCA'],
         ['name' => 'Neha', 'course' => 'BCom']
     ];
 
@@ -280,12 +280,13 @@ View
 - Request handle karna aur Model/View ke beech flow manage karna.
 
 **Q5. Controller se View kaise load karte hain?**
+
 `return view('student');`
 
 **Q6. Controller se View me data?**
 
 <code><pre>
-$data['name'] = 'Rahul';
+$data['name'] = 'jonh';
 
 return view('student', $data);
 </pre></code>

@@ -147,7 +147,7 @@ Users
 
 - Har page me same:
 
-<code><pre> 
+<code><pre>
 &lt;html&gt;
 
 &lt;head&gt;
@@ -180,9 +180,9 @@ Folder create karein: `app/Views/layouts/`
 
 File: `app/Views/layouts/main.php`
 
-Code: 
+Code:
 
-<code><pre> 
+<code><pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 
@@ -211,7 +211,9 @@ Code:
 </pre></code>
 
 Sabse important line:
+
 `<?= $this->renderSection('content') ?>`
+
 Is jagah individual page ka content aayega.
 
 ## 7. extend() ⭐
@@ -255,7 +257,7 @@ End: `<?= $this->endSection() ?>`
 
 Master layout: `<?= $this->renderSection('content') ?>`
 
-Child View: 
+Child View:
 
 <code><pre>
 &lt;?= $this->section('content') ?&gt;
@@ -309,6 +311,7 @@ endSection()
 ## 10. Complete Example ⭐
 
 **Master Layout**
+
 `app/Views/layouts/main.php`
 
 <code><pre>
@@ -374,6 +377,7 @@ public function index()
 </pre></code>
 
 ## 11. Multiple Sections ⭐
+
 - Sirf `content` hi nahi, multiple sections bana sakte hain.
 
 **Master:**
@@ -468,21 +472,28 @@ Layout me: `<?= view('partials/navbar') ?>`
 - Application ka UI/presentation display karna.
 
 **Q2. CI4 Views kahan hoti hain?**
+
 `app/Views/`
 
 **Q3. View kaise load karte hain?**
+
 `return view('products/index');`
 
 **Q4. View me data kaise bhejte hain?**
+
 `$data['title'] = 'Products';` <br/>
 `return view('products/index', $data);`
 
 **Q5. extend() kya karta hai?**
+
 - Parent/master layout ko inherit/use karta hai.
+
 `<?= $this->extend('layouts/main') ?>`
 
 **Q6. `section()` ?**
+
 - Child View me ek content section define karta hai.
 
 **Q7. `renderSection()` ?**
+
 - Master layout me defined section ka content render karta hai.

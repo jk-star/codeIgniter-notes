@@ -44,6 +44,7 @@ Product Page
 </pre></code>
 
 ## 2. Controller Method
+
 - Ek Controller me multiple methods ho sakte hain.
 
 <code><pre>
@@ -119,7 +120,8 @@ view('products/index')
 app/Views/products/index.php
 </pre></code>
 
-## 4. Controller → View Data ⭐⭐⭐
+## 4. Controller → View Data ⭐
+
 - Real application me Controller View ko data bhejega.
 
 **Controller:**
@@ -147,7 +149,8 @@ public function index()
 &lt;p&gt;Price: ₹<?= esc($price) ?>&lt;/p&gt;
 </pre></code>
 
-## 5. Request Object ⭐⭐⭐
+## 5. Request Object ⭐
+
 - Controller ko browser/form se jo data milta hai, use handle karne ke liye CI4 me Request object bahut important hai.
 
 - Controller me available hota hai:
@@ -164,7 +167,7 @@ public function index()
 
 ki value lega.
 
-## 6. POST Data Lena ⭐⭐⭐
+## 6. POST Data Lena ⭐
 
 **Form:**
 
@@ -225,7 +228,7 @@ public function index()
 
 - POST data ke liye.
 
-## 8. Route Parameter vs GET Parameter 
+## 8. Route Parameter vs GET Parameter
 
 **Route Parameter**
 
@@ -263,7 +266,7 @@ Method parameter
 getGet()
 </pre></code>
 
-## 9. Redirect ⭐⭐⭐
+## 9. Redirect ⭐
 
 Form save hone ke baad usually:
 
@@ -308,7 +311,7 @@ Validation Error
 Previous Form
 </pre></code>
 
-## 11. Flash Message ⭐⭐
+## 11. Flash Message ⭐
 
 - Suppose product save hua.
 - Hum redirect ke saath success message bhej sakte hain:
@@ -448,7 +451,7 @@ public function store()
 }
 </pre></code>
 
-## 15. Real CRUD Controller Structure ⭐⭐⭐
+## 15. Real CRUD Controller Structure ⭐
 
 Aage Product CRUD banega to Controller roughly:
 
@@ -510,19 +513,25 @@ delete() → Delete
 - Request handle karta hai aur Model/View ke beech application flow manage karta hai.
 
 **Q2. POST data kaise lete hain?**
+
 `$this->request->getPost('name');`
 
 **Q3. GET query parameter?**
+
 `$this->request->getGet('name');`
 
 **Q4. View kaise load karte hain?**
+
 `return view('products/index');`
 
 **Q5. Redirect kaise karte hain?**
+
 `return redirect()->to('/products');`
 
 **Q6. Previous page par redirect?**
+
 `return redirect()->back();`
 
 **Q7. Controller CLI se kaise banega?**
+
 `php spark make:controller Product`
