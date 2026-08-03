@@ -85,14 +85,14 @@ const chapters = [
         file: "chapter-17_services-helpers-libraries.md"
     },
     {
-        id: 19,
-        title: "useCallback()",
-        file: "chapter-19_useCallback.md"
+        id: 18,
+        title: "Rest API",
+        file: "chapter-18_rest-api.md"
     },
     {
-        id: 20,
-        title: "Context API",
-        file: "chapter-20_context-api.md"
+        id: 19,
+        title: "Email Sending & SMTP",
+        file: "chapter-19_email-smpt.md"
     },
     {
         id: 21,
