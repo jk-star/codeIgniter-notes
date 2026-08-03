@@ -55,24 +55,24 @@ const chapters = [
         file: "chapter-11_sessions.md"
     },
     {
+        id: 12,
+        title: "Authentication",
+        file: "chapter-12_authentication.md"
+    },
+    {
         id: 13,
-        title: "Fetch API",
-        file: "chapter-13_fetch-api.md"
+        title: "Filters",
+        file: "chapter-13_filters.md"
     },
     {
         id: 14,
-        title: "Router",
-        file: "chapter-14_router.md"
+        title: "Image Upload",
+        file: "chapter-14_image-upload.md"
     },
     {
         id: 15,
-        title: "Nested Routes",
-        file: "chapter-15_nested-routes.md"
-    },
-    {
-        id: 16,
-        title: "Custom Hooks",
-        file: "chapter-16_custom-hooks.md"
+        title: "Query Builder",
+        file: "chapter-15_query-builder.md"
     },
     {
         id: 17,
