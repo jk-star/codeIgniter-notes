@@ -75,14 +75,14 @@ const chapters = [
         file: "chapter-15_query-builder.md"
     },
     {
-        id: 17,
-        title: "useRef() Hook",
-        file: "chapter-17_useRef-hook.md"
+        id: 16,
+        title: "Migrations & Seeders",
+        file: "chapter-16_migrations-seeders.md"
     },
     {
-        id: 18,
-        title: "useMemo()",
-        file: "chapter-18_useMemo.md"
+        id: 17,
+        title: "Services, Helpers & Libraries",
+        file: "chapter-17_services-helpers-libraries.md"
     },
     {
         id: 19,
