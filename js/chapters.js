@@ -30,29 +30,29 @@ const chapters = [
         file: "chapter-6_view.md"
     },
     {
+        id: 7,
+        title: "Database",
+        file: "chapter-7_database.md"
+    },
+    {
         id: 8,
-        title: "State (useState Hook)",
-        file: "chapter-8_state.md"
+        title: "Models",
+        file: "chapter-8_models.md"
     },
     {
         id: 9,
-        title: "Rendering Lists (map())",
-        file: "chapter-9_map.md"
+        title: "CRUD",
+        file: "chapter-9_CRUD.md"
     },
     {
         id: 10,
-        title: "Conditional Rendering",
-        file: "chapter-10_conditional-rendering.md"
+        title: "Forms",
+        file: "chapter-10_forms.md"
     },
     {
         id: 11,
-        title: "Forms",
-        file: "chapter-11_forms.md"
-    },
-    {
-        id: 12,
-        title: "Hooks",
-        file: "chapter-12_hook.md"
+        title: "Sessions & Flash Messages",
+        file: "chapter-11_sessions.md"
     },
     {
         id: 13,

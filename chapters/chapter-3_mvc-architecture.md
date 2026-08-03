@@ -1,4 +1,4 @@
-# Chapter 3 — MVC Architecture in CodeIgniter 4
+# Chapter 3 — MVC Architecture 
 
 ## 1. MVC kya hai?
 

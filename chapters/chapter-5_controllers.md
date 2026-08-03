@@ -1,4 +1,4 @@
-# Chapter 5 — Controllers in CodeIgniter 4
+# Chapter 5 — Controllers 
 
 - Controller ka main kaam hai request handle karna, required logic chalana aur response/view return karna.
 
@@ -151,7 +151,7 @@ public function index()
 
 ## 5. Request Object ⭐
 
-- Controller ko browser/form se jo data milta hai, use handle karne ke liye CI4 me Request object bahut important hai.
+- Controller ko form se jo data milta hai, use handle karne ke liye CI4 me Request object bahut important hai.
 
 - Controller me available hota hai:
 

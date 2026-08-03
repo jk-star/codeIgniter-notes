@@ -1,4 +1,4 @@
-# Chapter 4 — Routing in CodeIgniter 4
+# Chapter 4 — Routing
 
 - URL ko correct Controller aur Method se connect karna.
 
