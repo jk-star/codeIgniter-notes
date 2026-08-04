@@ -95,9 +95,14 @@ const chapters = [
         file: "chapter-19_email-smpt.md"
     },
     {
+        id: 20,
+        title: "Error Handling",
+        file: "chapter-20_error-handling.md"
+    },
+    {
         id: 21,
-        title: "useReducer()",
-        file: "chapter-21_useReducer.md"
+        title: "Security",
+        file: "chapter-21_security.md"
     }
 
 ];
